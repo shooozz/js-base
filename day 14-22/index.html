@@ -1,0 +1,463 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        /* 
+            Оповещение / уведомление    
+        */
+        // alert("Hello World");
+    </script>
+    <h1>
+        Заголовок HTML  <!--сверху вниз, с лева направо читается код-->
+    </h1>
+    <script>
+
+        /*
+            УРОК 13
+        */
+        // let a = "The END";
+        // console.log("The END", a);
+
+        /*
+        !!!НЕЛЬЗЯ ИЗМЕНЯТЬ КОСТАНТУ
+        */
+
+        // const b = 69;        
+        // console.log(b++);
+
+        /*
+        Косые кавычки
+        */
+        // let name = prompt("Введите имя: ");
+        // let address = prompt("Введите адрес: ");
+        // let phone = prompt("Введите номер телефона: ");
+
+        // console.log(`Студент ${name}. Адрес: ${address}, Номер телефона: ${phone} `);
+
+        /* 
+            мини биржа УРОК 14   
+        */
+
+        // let ruble = prompt("Сколько у вас денег?");
+        // let dollars = prompt("Введите курс доллара");
+
+        // console.log(`Вы можете купить ${ruble / dollars} долларов`);
+
+        /* 
+            Первая задача: Изменить вторую строку так, чтобы получилось 15
+        */
+        // let a = 5, b = 10, c;
+        // c = ++a +b--;
+        // console.log(c);
+        
+        /*
+            условия УРОК 15
+        */
+        // const a = 10
+        // // let a = prompt("введите число")
+        // if (a < 10) {
+        //     console.log("Число меньше 10")
+        // }   else if (a == 10) {
+        //     console.log("Число равно 10")
+        // }
+        //    else {
+        //     console.log ("Число больше 10")
+        // }
+
+        /*
+            функции УРОК 16
+        */
+
+        // function hi() {
+        //     console.log("Hello World")
+        // }
+        
+        // hi();
+        
+        // let text = "wewe  123 32a ewe lorem dsds";
+        // function showText(text){
+        //     let checkText = text.includes("lorem");
+        //     if (checkText == true) {
+        //         console.log("У вас ошибка в тексте");
+        //     } else {
+        //         console.log(`Содержимое переменной: ${text}`);
+        //     }
+        // };
+        // showText(text)
+
+        /* 
+            Урок 17 Задачи
+        */
+
+        //1 
+
+        // let name = 'Islam';
+        // console.log(typeof(name));
+        // const age = 20;
+        // console.log(typeof(age));
+        // let checkAge = (age < 15) ? 'доступ запрещён' : `Привет ${name}`;
+        // console.log(checkAge);
+
+        //2
+
+        // function viewMoney(){
+        //     console.log("Вот вам 10$")
+        // };
+        // viewMoney();
+
+        // function getMoney(){
+        //     return ('Вот вам 10$')
+        // }
+        // console.log(getMoney())
+
+        // function getCash(cash){
+        //     return (`Вот вам ${cash} $`)
+        // }
+        // console.log(getCash(100));
+
+
+        //3 
+
+        // function squire(number) {
+        //     console.log(number * number);
+        //     console.log(Math.pow(number, 2));
+        //     console.log(number ** 2);
+        // };
+        // squire(2);
+
+        //4
+
+        // let a = 14;
+        // let b = 0;
+        // let c = 42;
+        // let d = -99;
+        // let e = 0.999;
+        // console.log( Math.max(a, b, c, d, e));
+
+        //5
+        
+        // let a = 2;
+        // let b = 9;
+        // let c = 4;
+        
+        // let disc = 0;
+        // console.log(disc = b ** 2 - 4 * a * c);
+
+        //6 
+
+
+
+        // function two(first, second) {
+        //     if (first%2 + second%2 == 0) {
+        //         return (first * second);
+        //     } else if (first%2 + second%2 == 2) {
+        //         return (first + second);
+        //     } else if (first%2 != 0 && second%2 == 0) {
+        //         return (first);
+        //     } else if (first%2 == 0 && second%2 != 0) {
+        //         return (second)
+        //     } else {
+        //         console.log('You are stupid')
+        //     }
+        // }
+
+        // console.log(two(2, 6));
+
+
+        /* 
+            Урок 18 Объект
+        */
+        // let man = {
+        //     name: 'Islam',
+        //     lastName: 'Rawil',
+        //     age: 20,
+        //     height: 175,
+        //     login: 'islam.rawil',
+        //     password: 'qwerty95',
+        //     money: 10000,
+        //     address: {
+        //         country: 'Russia',
+        //         republic: 'Chechen Republic',
+        //         viginer: 'Nadterechny',
+        //         street: 'Kurskaya',
+        //         homeNumber: 4,
+        //         phoneNumber: 89001002030,
+        //     }
+        // } 
+
+        // let inputedPassword = 'qwerty95'
+
+        // if (inputedPassword == man.password) {
+        //     console.log(`Welcome, ${man.name} ${man.lastName}, Your login: ${man.login}` )
+        // } else {
+        //     console.log(`Your password ${inputedPassword} was wrong. Try it again`)
+        // }
+        
+        /* 
+            Урок 19 Массив
+        */
+
+        // let a = ['lorem', 123, true, 'ipsum'];
+
+        // console.log(a[0], a[a.length -1]);
+
+        // let em = [];
+        
+        // em.unshift('я нулевой', 'I am first', 'I am second');
+        // em.push(4, 'end');
+        
+        // console.log(em);
+
+        // em.shift();
+        // em.splice(em.length-2, em.length);
+
+        // console.log(em);
+
+        // let number = [1,3,5,7,9];
+    
+        // console.log(number.map(item => item + 1));
+
+        // console.log(number.splice(1, 3, 'ds', 'sd', 'sds'));
+        // console.log(number);
+
+        /* 
+            Урок 20 Массив.методы
+        */
+
+        // let a = [10, 2762, 0.42, 192, 3, 28, 1125, 2018, 34, 66, 100];
+
+        // a.forEach(function(item, key, array) {
+        //     if(item % 2 == 1) {
+        //         console.log(item);
+        //     }
+        // });
+
+
+        // let b = ['lorem ipsum', 'javascript', 'php', 'css', 'react', 'git', 'html','mysql'];
+
+        // let result = b.filter(function(item, key, array) {
+        //     if (item.length <= 4) {
+        //         return item;
+        //     }
+        // });
+        // console.log(result);
+
+
+        // let c = [1, -3, 5, 6, -7, 8, 9, -11];
+
+        // let resultC = c.filter(function(item, key, array) {
+        //     if (item < 0) {
+        //         return item;
+        //     }
+        // });
+
+        // console.log(resultC);
+
+
+        // let d = [10, 2762, 0.42, 192, 3, 28, 1125, 2018, 34, 66, 100];
+
+        // let resultD = d.filter(function(item, key, array) {
+        //     if (item % 2 == 0) {
+        //         return item;
+        //     }
+        // });
+
+        // console.log(resultD);
+
+
+        // let e = ['lorem ipsum', 'javascript', 'php', 'css', 'react', 'git', 'html','mysql'];
+
+        // let resultE = e.filter(function(item, key, array) {
+        //     if (item.length != 3) {
+        //         return item;
+        //     }
+        // });
+
+        // console.log(resultE);
+
+
+
+        // let f = [5, 6, 7, 8, 9];
+
+        // console.log(f.map(function(item, key, array) {
+        //     return Math.pow(item, 2);
+        // }));
+
+        // let g = [{a: 10, b: 5,}, {a:20, b:22,}, {a:131, b:55,}];
+
+        // let resultG = g.reduce(function(sum, item, key, array) {
+        //     return [...sum, item.a + item.b];
+        // },[]);
+
+        // console.log(resultG);
+
+
+        // let h = [-13, 0, 12, 1662, -0.32, -102, -2];
+
+        // let resultH = h.filter(function(item, key) {
+        //     if (item<0) {
+        //         return item;
+        //     }
+        // });
+
+        // let resultHh = resultH.reduce(function(sum, item) {
+        //     return sum + item;
+        // },0);
+
+        // console.log(resultHh);p
+
+
+        // let j = [{x:10, y:'lorem'}, {x:21, y:'lorem'}, {x:-17, y:'lorem'}, {x:156, y:'lorem'}];
+
+        // let resultJ = j.reduce(function(sum, item) {
+        //     return item.x + sum;
+        // },0)
+
+        // console.log(resultJ);
+
+        /* 
+            Урок 21 Массив задачи
+        */
+
+        // const cities = [
+        //     {
+        //         name: 'Москва', population: 12506468
+        //     },
+        //     {
+        //         name: 'Санкт-Петербург', population: 5351935
+        //     },
+        //     {
+        //         name: 'Новосибирск', population: 1612833
+        //     },
+        //     {
+        //         name: 'Калининград', population: 482443
+        //     },
+        //     {
+        //         name: 'Калуга', population: 336726
+        //     },
+        // ];
+
+        // //add end
+        // cities.push({
+        //         name: 'Луна', population: 1
+        //     });
+
+        // //add start
+        // cities.unshift({
+        //         name: 'Грозный', population: 1333333
+        //     });
+
+        // console.log(cities);
+
+        // console.log(cities.forEach(function(items) {
+        //     console.log(`город:  ${items.name} , население ${items.population}`)            
+        // }));
+
+        // let result = (cities.filter(function(item) {
+        //     if (item.population > 1000000) {
+        //         return (item.name , item.population)
+        //     }
+        // }));
+
+        // console.log(result);
+
+        // // * 1.5
+        // result.forEach(function(items) {
+        //     return items.population *= 1.5          
+        // });
+
+        
+        // let tillResult = (cities.filter(function(item) {
+        //     if (item.population < 1000000) {
+        //         return (item.population)
+        //     }
+        // }));
+        
+        // console.log(tillResult);
+
+        // let newResult = result.reduce(function(sum, item) {
+        //     return item.population + sum
+        // }, 0);
+
+        // let oldResuld = tillResult.reduce(function(sum, item) {
+        //     return item.population + sum
+        // }, 0);
+
+
+        // console.log(oldResuld)
+
+        // console.log(newResult)
+
+        // console.log(oldResuld + newResult)
+            
+
+        /* 
+            Урок 22 Циклы
+        */
+
+
+        // const arr_1 = [101, 202, 303, 404, 505];
+        // const arr_2 = [606, 707, 808, 909];
+
+        // const superArr = [...arr_1, ...arr_2];
+
+        // console.log(superArr);
+
+        // console.log(Math.min(...superArr));
+
+
+        // let obj = {
+        //     width: 300,
+        //     heigth: 550,
+        // };
+
+        // let area = obj.width * obj.heigth;
+
+        // let newObj = {...obj, area,};
+
+        // console.log(newObj);
+
+
+        // function sum(...rest) {
+        //     return rest.reduce(function(sum, items) {
+        //         return sum + items
+        //     }, 0)
+        // }
+
+        // const numbers = [1, 2, 3, 4, 5]
+
+        // console.log(sum(...numbers))
+
+
+        // for (let num = 0; num < 3; num++) {
+        //     console.log(`4ucno: ${num}`);
+        // };
+
+        // let numW = 0
+        // while (numW < 3) {
+        //     console.log(`4ucno: ${numW}`)
+        //     numW++
+        // }
+
+
+        // for (let i = 0; i <= 10; i++) {
+        //     console.log(i)
+        // }
+        
+        // let i = 0;
+        // while (i <= 10) {
+        //     console.log(i)
+        //     i++
+        // }
+
+
+
+    </script>
+</body>
+</html>
